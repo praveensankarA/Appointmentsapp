@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.main-card-container {
+  background-color: #fff;
+  width: 80%;
+  min-height: 30vh;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.input-container {
+  display: flex;
+  width: 30%;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.main-titel {
+  font-weight: 800;
+}
+.title-input {
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 17px;
+  margin-bottom: 12px;
+  border-color: #80849e;
+}
+.title-input-label {
+  margin-right: 200px;
+  margin-top: 5px;
+  font-size: medium;
+  margin-bottom: 5px;
+  color: #80849e;
+}
+.add-btn {
+  padding: 6px 25px;
+  margin-top: 5px;
+  margin-right: 166px;
+  background-color: #8b5cf6;
+  color: #fff;
+  font-family: 'Robot';
+  font-weight: 800;
+  border-radius: 12px;
+}
+.line {
+  margin-top: 20px;
+  width: 90%;
+  background-color: #171f46;
+}
+.Appointments-title-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Appointments-title {
+  font-size: 25px;
+}
+.Appointments-star-btn {
+  padding: 5px 20px;
+  background-color: transparent;
+  border-radius: 19px;
+  border-color: #9796f0;
+  color: #9796f0;
+  font-weight: 900;
+  font-size: 17px;
+  font-family: 'roboto';
+}
+.Appointments-star-btn-s {
+  padding: 5px 20px;
+  background-color: #8b5cf6;
+  border-radius: 19px;
+  border-color: #fff;
+  color: black;
+  font-weight: 900;
+  font-size: 17px;
+  font-family: 'roboto';
+}
+.Appointment-list-container {
+  display: flex;
+  width: 80%;
+  padding: 0px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.a {
+  margin-top: 20px;
+  font-size: 20px;
+  animation: myColor 1s linear infinite;
+  transition: linear;
+}
+@keyframes myColor {
+  0% {
+    color: rgb(68, 0, 255);
+  }
+
+  100% {
+    color: red;
+  }
+}

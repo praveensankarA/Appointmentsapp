@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-element {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid #80849e;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.list-ele-name-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-ele-name {
+  font-size: 17px;
+  font-weight: 800;
+}
+.list-ele-star {
+  width: 27px;
+  height: 27px;
+}
+.list-ele-time {
+  /* align-self: flex-start; */
+  font-size: 15px;
+  color: gray;
+  width: 85%;
+}
